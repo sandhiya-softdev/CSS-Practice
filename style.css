@@ -1,0 +1,38 @@
+h1{
+    color: black;
+    text-align: center;
+    padding: 2px;
+}
+h2{
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: peachpuff;
+    text-align: center;
+    font-size: 20px;
+}
+
+#things{
+    color: wheat;
+    font-size: 30px;;
+}
+.root{
+    background-color: bisque;
+    text-align: center;
+}
+*{
+    color: brown;
+    text-align: center;
+}
+input[type="text"] {
+        background-color: orangered;
+        color: peru;
+
+
+        .root{
+            background-color: beige;
+            text-align: center;
+        }
