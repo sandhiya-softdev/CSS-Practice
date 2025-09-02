@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fixed{ 
+            background-color: blue;
+            border: 2px solid goldenrod;
+            width:300px;
+            height:200px;
+        }
+        .responsive{
+            background-color: blueviolet;
+            border: 2px solid black;
+            width:50%;
+            height: 100px;
+        }
+        .auto{
+            background-color: hotpink;
+            border: 2px solid black;
+            width:auto;
+         height:auto;
+        }
+        
+        .max{
+            background-color: blueviolet;
+            max-width: 500px;
+             border: 2px solid black;
+        }
+        
+        .min{
+            background-color: salmon;
+            min-width: 500px;
+            border: 2px solid black;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="fixed">
+    <h1>fixed sixe</h1>
+    <p> fixed sizes means we give the fixed height and width</p>
+    </div>
+    <br>
+    <br>
+    <!-- what is responsive size:
+     <!-- reponsive size we give % we take % of amount -->
+      <div class="responsive">
+      <h1>responsive size</h1>
+      <p>reponsive size is give how to control width</p>
+      </div>
+       <br>
+    <br>
+      <!-- <!-- what is width auto -->
+        <div class="auto">
+            <h1>width auto</h1>
+            <p> width auto means they take whole width</p>
+        </div>
+         <br>
+    <br>
+        <!-- what is max-width
+         <!-- max-width is used for the layout mobile, laptop device -->
+          <div class="max">
+            <h1>max-width</h1>
+            <p>max width means we can give mobiles, laptop and more devices comfortable screen size</p>
+
+          </div>
+           <br>
+    <br>
+          <!-- what is min-width 
+           min-width is used for the perfect percentange -->
+           <div class="min">
+            <h1>min-width</h1>
+            <p> min width is given px are fixed</p>
+           </div>
+
+    
+</body>
+</html>
