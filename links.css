@@ -1,0 +1,13 @@
+  a {
+        color:brown;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        color:blue;
+        text-decoration: underline;
+    }
+  .link-style{
+    text-decoration: underline;
+          color: purple;
+  }
