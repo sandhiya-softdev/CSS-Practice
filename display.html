@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: none;
+        }   
+        .block{
+            display: block;
+            border: 2px solid black;
+        }
+         span{
+            display: inline;
+            border: 2px solid black;
+            padding: 8px;
+            background-color: blue;
+        }
+        .inline{
+            display: inline-block;
+            border: 2px solid black;
+            padding: 8px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- what is css display
+    css display property element is displayed with the layout of the page  -->
+
+    <!-- block means create a new line take a full width
+     inline means doen't create a line content based take width -->
+
+
+<h1>Hiding elements</h1>
+<div class="box">
+<p>when you give display none that box doesn't show</p>
+</div>
+
+<!-- what is block level element
+ block level take a full width take a new line -->
+
+
+
+ <h1>Block level element</h1>
+ <div class="block">
+    <p>This is block level element take a full width</p>
+ </div>
+
+
+ <h1>inline level element</h1>
+<p>Block level element<span>inline element are we considered of the image</span> element</p>
+
+
+<!-- what is inline-block level element
+ behave like a inline element but show block element but not a new line -->
+ <h1>Inline-block level element</h1>
+ <div class="inline">
+    <p> this is a inline-block element behave like a inline but show block</p>
+ </div>
+
+
+</body>
+</html>
