@@ -1,0 +1,47 @@
+ .static{  
+    position:static;
+    border: 2px solid black; 
+ padding: 8px;
+}
+.relative{
+    position: relative;
+    top:20px;
+    left:50px;
+    border: 2px solid black; 
+    padding: 8px;
+    
+ } 
+
+
+.container{
+    border: 2px solid black;
+    padding: 8px;
+    position: relative;
+    height: 200px
+}
+   
+.element{
+    position: absolute;
+    left: 5opx;
+    top: 65px;
+    border: 2px solid black;
+    padding: 8px;
+    background-color: blanchedalmond;
+
+} 
+
+
+.sticky{
+    border: 1px solid black;
+    padding: 8px;
+    height:300px;
+    overflow-x: scroll;
+
+}
+.heading{
+    position: sticky;
+    top:0;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    padding: 5px;
+}
