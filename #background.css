@@ -1,0 +1,143 @@
+ .background-color{
+            background-color: burlywood;
+            height: 600px;
+            background-position:right;
+            background-size: auto;
+            color: white;
+           
+        }
+
+
+        .background-repeat{
+            background-image: url(image/size\ \(2\).jpg);
+           /* background-repeat: repeat;*/
+           /* background-repeat: no-repeat;*/
+           /* background-repeat: repeat-x;*/
+           /* background-repeat: repeat-y;*/
+        }
+
+       .attachment{
+        background-image: url(image/size\ \(2\).jpg);
+         background-repeat: no-repeat; 
+        /* background-attachment: scroll; */
+        background-attachment: fixed;
+        min-height: 200vh;
+    }
+
+      .position{
+            background-image: url(image/size\ \(2\).jpg);
+            background-repeat: no-repeat;
+            border: 2px solid black;
+            background-position: bottom right;
+             background-position: bottom center;
+              background-position: bottom left; 
+               background-position: center right;
+                background-position: center center;
+                 background-position: center left;
+                  background-position: top right;
+                   background-position: top center;
+                    /* background-position: top left; */
+
+        }
+
+.static{  
+    position:static;
+    border: 2px solid black; 
+ padding: 8px;
+}
+.relative{
+    position: relative;
+    top:20px;
+    left:50px;
+    border: 2px solid black; 
+    padding: 8px;
+    
+ } 
+
+
+.container{
+    border: 2px solid black;
+    padding: 8px;
+    position: relative;
+    height: 200px
+}
+   
+.element{
+    position: absolute;
+    left: 5opx;
+    top: 65px;
+    border: 2px solid black;
+    padding: 8px;
+    background-color: blanchedalmond;
+
+} 
+
+
+.sticky{
+    border: 1px solid black;
+    padding: 8px;
+    height:300px;
+    overflow-x: scroll;
+
+}
+.heading{
+    position: sticky;
+    top:0;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+
+  . shorthead{
+        color: white;
+        background: url(image/size\ \(2\).jpg) no-repeat bottom top;
+    }
+
+    .image-auto{
+    width: 626px; height: 626px;
+      background-image: url("image/cloudy.jpg");
+      background-size: auto;
+      background-repeat: no-repeat;
+      border: 2px dotted black;
+      margin: 10px;
+      /* display: inline-block; */
+    }
+
+    .image-cover{
+         width: 600px; height: 800px; 
+      background-image: url("image/cloudy.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: 2px dotted black;
+      margin: 10px;
+      /* display: inline-block; */
+    }
+    .image-contain{
+        
+    width: 600px; height: 700px;
+      background-image: url("image/cloudy.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      border: 2px dotted black;
+      margin: 10px;
+      /* display: inline-block; */
+    }
+    .image-exactsize{
+    width: 300px; height: 200px;
+      background-image: url("image/cloudy.jpg");
+      background-size: 100px 50px;
+      background-repeat: no-repeat;
+      border: 2px dotted black;
+      margin: 10px;
+      /* display: inline-block; */
+    }
+    .image-mul{
+         width: 300px; height: 200px;
+      background-image: url("image/cloudy.jpg"), url(image/light.jpg);
+      background-size: 100px 50px;
+      background-repeat: no-repeat;
+      border: 2px dotted black;
+      margin: 10px;
+      /* display: inline-block; */
+    }
