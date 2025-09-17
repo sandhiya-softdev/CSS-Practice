@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:hover{
+            color:red;
+
+        }
+        a:visited{
+            color:purple;
+        }
+        input:focus{
+            background-color: blue;
+            border: 2px solid red;
+        }
+        h5::first-letter{
+            color:peru;
+            font-size: 25px;
+            font-weight:bold;
+        }
+        h4::before{
+            content:"we can use before and after:";
+             color:hotpink;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h3::after{
+            content:"we can use after:";
+            color:orange;
+            font-size: 30px;
+            font-weight: bold;
+        }
+       div> h6:first-child{
+            color:red;
+
+        }
+        h1:not(.light){
+            color:indianred;
+        }
+      
+    </style>
+</head>
+<body>
+    <!-- what is pseudo
+     pseudo class are used to define states of the elemeent -->
+     <!-- what is hover -->
+     <p>This is about the youtube<a href=https://www.youtube.com/>youtube</p>
+     <br>
+     <br>
+     <br>
+
+     <!-- whast is visited
+      when you visited page that will be color changed-->
+      <p>This is about the visited pages<a href=https://www.abilitycoding.com/>abilitycoding</p>
+
+
+      <!-- whast is pseufo foucs
+       when you search that will be bright -->
+       <input type="text" placeholder="Enter your name">
+       <br>
+       <br>
+       <br>
+       <!-- what is pseufo element -->
+        <!-- first letter:: means we can style first letter -->
+         <h5>This is the pseufo element</h5>
+        <br>
+        <br>
+        <br>
+        <!-- what is pseudo element before
+         we can use pseudo element with before and after -->
+         <h4>This is pseudo element with before and after</h4>
+         <br>
+         <br>
+         <br>
+         <!-- what is pseufo elment after
+          <!-- we can use pseudo element with after  -->
+           <h3>This is pseudo element with after</h3>
+           <br>
+           <br>
+           <br>
+           <!-- what is pseufo first child
+            that child can be in first child element will be red -->
+            <div>
+            <h6>First child</h6>
+              <h6>second child</h6>
+              </div>
+              <br>
+              <br>
+              <!-- what is pseudo-class nth child -->
+               <h1>This is nth child</h1>
+               <h1 class="light">This is nth child</h1>
+
+         
+</body>
+</html>
