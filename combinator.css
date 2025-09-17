@@ -1,0 +1,12 @@
+div p{
+    color:purple;
+}
+div>h4{
+    color:palegreen;
+}
+div+p{
+    color:orchid;
+}
+p~h5{
+    color:tomato;
+}

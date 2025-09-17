@@ -1,0 +1,39 @@
+.container{
+    background-color:plum;
+    width:200px;
+    height:100px;
+    overflow: visible;
+}
+.hidden{
+    background-color: papayawhip;
+    width:200px;
+    height:100px;
+    overflow:hidden;
+}
+.scroll{
+    background-color:lightcoral;
+    width:200px;
+    height:100px;
+    overflow:scroll;
+
+}
+.auto{
+    background-color: indianred;
+    width:200px;
+    height:200px;
+    overflow:auto;
+}
+.overflow-x{
+    background-color: palevioletred;
+    width:200px;
+    height:100px;
+    overflow-x:scroll; 
+
+}
+.overflow-y{
+    background-color: pink;
+    width:300px;
+    height:100px;
+    overflow-y:scroll; 
+
+}
