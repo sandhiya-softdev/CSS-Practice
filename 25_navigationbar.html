@@ -6,34 +6,41 @@
     <title>Document</title>
     <style>
         nav{
-            background-color:pink;
+            box-sizing: border-box;
             margin:0;
-            box-sizing: content-box;
+            padding:0;
+        }
+        nav ol{
+          list-style-type: none;
+      background-color: black;
         }
         nav ol li{
-            list-style-type:none;
-            display: inline-block;
-            padding:20px;
-            color:black;
+            display:inline-block;
+             padding: 20px;
         }
         nav ol li a{
-            color:black;
             text-decoration: none;
-            padding:12px 14px;
+            color:white;
+            padding:12px 16px;
+            text-align: center;
         }
         nav ol li a:hover{
-            background-color: bisque;
+            color:yellow;
         }
+
+       
     </style>
 </head>
 <body>
     <nav>
         <ol>
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">services</li>
-            <li><a href="#">content</li>
+            <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Portfolio</a></li>
+           <li><a href="#">Blog</a></li>
+           <li><a href="#">Contact</a></li>
         </ol>
     </nav>
+    
 </body>
 </html>
