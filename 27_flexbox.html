@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container{ 
+            display: flex;
+            justify-content: flex-start;
+
+         }
+        .flex-item{
+            background-color: pink;
+            padding: 20px;
+            margin: 10px;
+
+        }
+        .on1{
+            display: flex;
+            justify-content: flex-end;
+
+        }
+        .flex-item1{
+            background-color:purple;
+            padding: 20px;
+            margin: 10px;
+        }
+       .on2{
+        display: flex;
+        justify-content: center;
+
+       }
+       .flex-item2{
+        background-color: brown;
+        padding: 20px;
+        margin: 10px;
+       }
+       .on3{
+        display: flex;
+        justify-content: space-around;
+
+
+       }
+       .flex-item3{
+        background-color: blue;
+        margin:10px;
+        padding: 20px;
+       }
+
+        .on4{
+        display: flex;
+        justify-content: space-between;
+
+
+       }
+       .flex-item4{
+        background-color: pink;
+        margin:10px;
+        padding: 20px;
+       }
+       .things{
+        border: 2px solid black;
+        height: 200px;
+        display: flex;
+        align-items:flex-start;
+       }
+       .align-items1{
+        background-color: forestgreen;
+        padding: 20px;
+        margin: 10px;
+       }
+ .things1{
+        border: 2px solid black;
+        height: 200px;
+        display: flex;
+        align-items:flex-end;
+       }
+       .align-items2{
+        background-color: gold;
+        padding: 20px;
+        margin: 10px;
+       }
+        .things2{
+        border: 2px solid black;
+        height: 200px;
+        display: flex;
+        align-items:center;
+       }
+       .align-items3{
+        background-color: indianred;
+        padding: 20px;
+        margin: 10px;
+       }
+       .off1{
+        border: 2px solid black;
+       
+        display: flex;
+        flex-direction: row;
+
+       }
+       .d1{
+        background-color: coral;
+        padding: 20px;
+        margin: 10px;
+
+
+       }
+ .off2{
+        border: 2px solid black;
+       
+        display: flex;
+        flex-direction: row-reverse;
+
+       }
+       .d2{
+        background-color: coral;
+        padding: 20px;
+        margin: 10px;
+
+
+       }
+       .off3{
+        border: 2px solid black;
+       
+        display: flex;
+        flex-direction: column;
+
+       }
+       .d3{
+        background-color: coral;
+        padding: 20px;
+        margin: 10px;
+
+
+       }
+
+
+        .off4{
+        border: 2px solid black;
+       
+        display: flex;
+        flex-direction: column-reverse;
+
+       }
+       .d4{
+        background-color: coral;
+        padding: 20px;
+        margin: 10px;
+
+
+       }
+.high1{
+    border:2px solid black;
+    display: flex;
+    flex-wrap:nowrap;
+    
+}
+.wrap1{
+    background-color: thistle;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.high2{
+    border:2px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.wrap2{
+    background-color: hotpink;
+    padding: 20px;
+    margin: 10px;
+}
+
+.high3{
+    border:2px solid black;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    
+}
+.wrap3{
+    background-color: darkmagenta;
+    padding: 20px;
+    margin: 10px;
+}
+
+.high4{
+    border:2px solid black;
+    display: flex;
+    height:800px;
+    flex-direction:column;
+    
+    flex-wrap:nowrap;
+    
+}
+.wrap4{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 5px;
+}
+
+.high5{
+    border:2px solid black;
+    display: flex;
+    height:500px;
+    flex-direction:column;
+    
+    flex-wrap:wrap;
+    
+}
+.wrap5{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 5px;
+}
+
+.high6{
+    border:2px solid black;
+    display: flex;
+    height:500px;
+    flex-direction:column;
+    
+    flex-wrap:wrap-reverse;
+    
+}
+.wrap6{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 5px;
+}
+.seen1{
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row nowrap;
+    
+
+}
+.flow1{
+    background-color: plum;
+    padding: 10px;
+    margin: 10px;
+}
+
+.seen2{
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    
+
+}
+.flow2{
+    background-color: plum;
+    padding: 50px;
+    margin: 20px;
+}
+
+.seen3{
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    
+
+}
+.flow3{
+    background-color: plum;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+    </style>
+</head>
+<body>
+    <!-- what is justify content -start -->
+     <div class="container">
+        <div class="flex-item">item1</div>
+         <div class="flex-item">items1</div>
+          <div class="flex-item">items1</div>
+     </div>
+     <br>
+
+
+     <!-- what is justify content-end -->
+      <div class="on1">
+        <div class="flex-item1">item2</div>
+         <div class="flex-item1">items2</div>
+          <div class="flex-item1">items2</div>
+     </div>
+     <br>
+     <br>
+
+
+     <!-- what is justify content center -->
+      <div class="on2">
+        <div class="flex-item2">item3</div>
+         <div class="flex-item2">items3</div>
+          <div class="flex-item2">items3</div>
+     </div>
+     <br>
+     <br>
+     <!-- what is justify content space-around -->
+      <div class="on3">
+        <div class="flex-item3">item4</div>
+         <div class="flex-item3">items4</div>
+          <div class="flex-item3">items4</div>
+     </div>
+     <br>
+     <br>
+     <!-- what is justify content space-between -->
+      <div class="on4">
+        <div class="flex-item4">item5</div>
+         <div class="flex-item4">item5</div>
+          <div class="flex-item4">item5</div>
+     </div>
+     <br>
+     <br>
+
+     <!-- what is align items -->
+      <div class="things">
+        <div class="align-items1">align1</div>
+         <div class="align-items1">align1</div>
+          <div class="align-items1">align1</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <!-- what is align items end -->
+       <div class="things1">
+        <div class="align-items2">align2</div>
+         <div class="align-items2">align2</div>
+          <div class="align-items2">align2</div>
+      </div>
+
+      <!-- what is align items center -->
+       <div class="things2">
+        <div class="align-items3">align3</div>
+         <div class="align-items3">align3</div>
+          <div class="align-items3">align3</div>
+      </div>
+      <br>
+      <br>
+
+
+      <!-- what is flex direction -->
+
+      <div class="off1">
+        <div class="d1">direction1</div>
+         <div class="d1">direction2</div>
+          <div class="d1">direction3</div>
+      </div>
+      <br>
+      <br>
+
+
+<!-- what is flex direction row-direction -->
+ <div class="off2">
+        <div class="d2">direction1</div>
+         <div class="d2">direction2</div>
+          <div class="d2">direction3</div>
+      </div>
+      <br>
+      <br>
+
+      <!-- what is flex direction column-direction -->
+
+      <div class="off3">
+        <div class="d3">direction1</div>
+         <div class="d3">direction2</div>
+          <div class="d3">direction3</div>
+      </div>
+      <br>
+      <br>
+
+      <!-- what is flex-direction column-reverse -->
+       <div class="off4">
+        <div class="d4">direction1</div>
+         <div class="d4">direction2</div>
+          <div class="d4">direction3</div>
+      </div>
+      <br>
+      <br>
+
+      <!-- what is flex-nowrap -->
+       <div class="high1">
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        
+
+
+
+
+
+
+       </div>
+
+
+
+       <!-- what is flex-wrap -->
+       <div class="high2">
+        <div class="wrap2">wrap1</div>
+        <div class="wrap2">wrap1</div>
+        <div class="wrap2">wrap1</div>
+        <div class="wrap2">wrap1</div>
+        <div class="wrap2">wrap1</div>
+        <div class="wrap2">wrap1</div>
+        <div class="wrap2">wrap1</div>
+        <div class="wrap2">wrap1</div>
+        <div class="wrap2">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+        <div class="wrap1">wrap1</div>
+
+       </div>
+
+       <!-- what is flex-reverse -->
+       <div class="high3">
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+        <div class="wrap3">wrap1</div>
+
+       </div>
+       <!-- what is flex-column -->
+
+        <!-- what is flex-column -->
+       <div class="high4">
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+        <div class="wrap4">wrap1</div>
+
+       </div>
+
+     <!-- what is column-wrap -->
+
+       <div class="high5">
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+        <div class="wrap5">wrap1</div>
+
+       </div>
+       <!-- what is column wrap-reverse -->
+
+        <div class="high6">
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+        <div class="wrap6">wrap1</div>
+
+       </div>
+
+       <!-- what is flex-flow means the flex-direction and flow-wrap -->
+
+
+       <div class="seen1">
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+        <div class="flow1"></div>
+
+       </div>
+
+
+       <!-- what is flex-flow wrap  -->
+
+
+       <div class="seen2">
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+        <div class="flow2"></div>
+
+       </div>
+
+       <!-- what is flew-flow reverse -->
+
+       <div class="seen3">
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+        <div class="flow3"></div>
+
+       </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
