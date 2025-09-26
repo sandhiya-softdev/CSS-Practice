@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-content</title>
+    <style>
+        /* .container1 { */
+          width: 100%;
+           height:300px; 
+          border: 8px solid blue;
+          background-color:olive;
+          display: flex;
+          flex-direction:column;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+        .on1 {
+            margin:20px;
+            padding: 10px;
+            background-color: hotpink;
+         }
+         /* .things2{ */
+            width: 100%;
+            /* height: 200px; */
+            border: 7px solid  green;
+            display: flex;
+            flex-direction: column-reverse;
+            /* justify-content: flex-end; */
+                 }
+         .on2{
+            padding: 20px;
+            margin: 5px;
+            background-color: blue;
+         }
+          .on3{
+            padding: 20px;
+            margin: 5px;
+            background-color: black;
+            color: white;
+         }
+
+          .on4{
+            padding: 20px;
+            margin: 5px;
+            background-color: plum;
+         }
+         /* .off1{ */
+            width: 400px;
+            border: 8px solid black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+         
+         .flex-items{
+            margin: 10px;
+            padding: 5px;
+            background-color: blue;
+
+         }
+         .off2{
+            width:500px;
+            background-color: azure;
+             border:9px solid black;
+            display: flex;
+            flex-flow: row wrap-reverse;
+            
+           
+          
+         }
+         .flex-flow{
+            background-color: blue;
+            padding: 20px;
+            margin: 10px;
+         }
+
+
+    </style>
+</head>
+<body>
+<!-- what is justify contet -->
+ <div class="container1">
+    <div class="on1">item1</div>
+    <div class="on1">item2</div>
+    <div class="on1">item3</div>
+    <br>
+    <br>
+
+    <!-- what is row-reverse -->
+     <div class="things2">
+        <div class="on2">pic1</div>
+        <div class="on3">pic2</div>
+        <div class="on4">pic3</div>
+
+     </div>
+
+
+     <!-- what is flew-wrap -->
+      <div class="off1">
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+        <div class="flex-items">item1</div>
+      </div>
+
+      <!-- what is flex-flow -->
+       <div class="off2">
+        <div class="flex-flow">items1</div>
+        <div class="flex-flow">items1</div>
+        <div class="flex-flow">items1</div>
+        <div class="flex-flow">items1</div>
+         <div class="flex-flow">items1</div>
+         <div class="flex-flow">items1</div>
+         <div class="flex-flow">items1</div>
+         <div class="flex-flow">items1</div>
+         <div class="flex-flow">items1</div>
+         <div class="flex-flow">items1</div>
+
+       </div>
+
+
+ </div>
+</body>
+</html>
