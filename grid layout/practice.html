@@ -26,9 +26,9 @@
             display: grid;
             grid-template-areas: 
             'header header header'
-            'nav content aside'
+            'nav main aside'
             'footer footer footer';
-            grid-template-columns: 1fr 2fr auto;
+            grid-template-columns: 1fr 2fr 1fr;
             grid-template-rows: 100px 1fr auto;
         }
         header{
@@ -38,7 +38,7 @@
             grid-area: nav;
         }
         main{
-            grid-area:content;
+            grid-area:main;
         }
         aside{
             grid-area: aside;
