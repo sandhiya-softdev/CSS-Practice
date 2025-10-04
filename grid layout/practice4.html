@@ -2,61 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
     <style>
         *{
-            margin:0;
             padding:0;
-            box-sizing: border-box;
+            margin:0;
+            box-sizing: content-box;
         }
-         
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-areas:
+            'header header header'
+            'main main aside'
+            'footer footer aside';
+            grid-template-columns: 600px 700px;
+            grid-template-rows: 100px 2fr 100px;
+           
+        }
         header,
         main,
         aside,
         footer{
-            background-color: blue;
-            padding: 10px;
-           
-        }
-        body{
-            margin: 100wh;
-            height:100vh;
-             display: grid;
-             grid-template-areas: 
-             'header header header'
-             'content aside'
-             'footer aside';
-             grid-template-columns: 1fr 2fr auto;
 
-        }
-
-
-
-
-
-
-
-
-
-
-
+            background-color: brown;
+            padding: 20px;
+            border: 2px solid black;
+        } 
         header{
             grid-area: header;
+            background-color: blueviolet;
         }
         main{
             grid-area: main;
+            background-color: bisque;
         }
         aside{
             grid-area: aside;
+            background-color: hotpink;
         }
-        footer{ 
+        footer{
             grid-area: footer;
+            background-color: aquamarine;
         }
+          
       
     </style>
 </head>
-<body>
+<body>  
     <header>header</header>
     <main>content</main>
     <aside>aside</aside>
