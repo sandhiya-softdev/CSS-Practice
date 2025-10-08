@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin:auto;
+           transition-duration: backgroun-color;
+           transition-duration: 1s;
+        }
+        .box1:hover{
+            background-color: aqua;
+        }
+         .box2{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            margin:auto;
+            transition-property: width,height,backgroun-color;
+            transition-duration: 1s;
+         }
+          
+        .box2:hover{
+           height:100px;
+            width:300px;
+            background-color: blue;
+        }
+       
+         .box3{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            margin:auto;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function:linear ;
+            transition-delay: 3s;
+         }
+          
+        .box3:hover{
+           height:100px;
+            width:300px;
+            background-color: blue;
+        }
+         .box4{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            margin:auto;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function:ease-in-out;
+            transition-delay: 3s;
+         }
+          
+        .box4:hover{
+           height:100px;
+            width:300px;
+            background-color: blue;
+            opacity: 0.5;
+        }
+
+
+
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <br>
+     <div class="box2"></div>
+     <br>
+      <div class="box3"></div>
+      <br>
+       <div class="box4"></div>
+        <div></div>
+
+    
+</body>
+</html>
