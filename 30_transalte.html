@@ -1,61 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .random1{
-            width: 200px;
-            height: 200px;
-            background-color: gold;
-            transform: translateX(300px);
-        }
-         .random2{
-            width: 200px;
-            height: 200px;
-           background-color: gold;
-            transform: translatey(100px);
-        }
-         .random3{
-            width: 200px;
-            height: 200px;
-           background-color: gold;
-            transform: translate(100px,100px)
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box{
+      width: 200px;
+      height: 200px;
+      background-color: pink;
+      margin:auto;
+      margin-top: 20px;
+      transform: translatex(100px);
+    }
+    .box1{
+      width: 200px;
+      height: 200px;
+      margin: auto;
+      background-color: pink;
+     margin-top: 20px;
+     transform: translatex(-200px);
+    }
+    .box3{
+      width:200px;
+      height:200px;
+      background-color: pink;
+      margin:auto;
+      margin-top: 20px;
+      transform: translatey(10px);
+    }
+     .box4{
+      width:200px;
+      height:200px;
+      background-color: pink;
+      margin:auto;
+      margin-top: 20px;
+      transform: translatey(-50px);
+    }
+     .box5{
+      width:200px;
+      height:200px;
+      background-color: pink;
+      margin:auto;
+      margin-top: 20px;
+      transform: translate(100px,50px);
+    }
 
 
-
-
-
-
-
-
-
-
-    </style>
+ </style>
 </head>
 <body>
-    <h1>translate x-position</h1>
-    <div class="random1">
-  </div>
-  <br>
-  <hr>
-   <h1>translate y-position</h1>
-    <div class="random2">
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <h1>translate position</h1>
-    <div class="random3">
-  </div>
-  <br>
-  
-  
+  <!-- this is translate x -->
+  <h1>translate:x</h1>
+  <div class="box">
+    </div>
+    <!-- this is translate -x -->
+    <h1>translate:-x</h1>
+    <div class="box1">
+      </div>
+      <br>
+
+    <!-- this is translate y -->
+     <h1>translate:y</h1>
+     <div class="box3">
+   </div>
+   <!-- this is translate -y -->
+    <h1>translate:-y</h1>
+    <div class="box4">
+   </div>
+
+    <!-- this is translate x and y -->
+    <h1>translate:x and y</h1>
+    <div class="box5">
+   </div>
 
 
-    
+  
+
+  </div>
 </body>
 </html>

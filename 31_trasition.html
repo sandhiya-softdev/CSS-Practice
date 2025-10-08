@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin:auto;
+          transition-property: background-color;
+          transition-duration: 1s;
+        }
+        .box1:hover{
+            background-color: gold;
+        }
+          .box2{
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+            margin:auto;
+          transition-property: width,height;
+          transition-duration: 1s;
+        }
+        .box2:hover{
+           width:800px;
+           height:200px;
+        }
+          .box3{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin:auto;
+          transition-property:all;
+          transition-duration: 1s;
+        }
+        .box3:hover{
+           width:800px;
+           height:300px;
+           background-color: blue;
+        }
+         .box4{
+            width: 200px;
+            height: 200px;
+            background-color: greenyellow;
+            margin:auto;
+          transition-property:all;
+          transition-duration:2s;
+          transition-timing-function: ease-in-out;
+        }
+        .box4:hover{
+           background-color: pink;
+        }
+        .box5{
+            width:200px;
+            height:200px;
+            background-color: purple;
+            margin:auto;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function:ease-in-out;
+        }
+        .box5:hover{
+            background-color: aqua;
+            transform: translate(100px);
+        }
+
+
+        .box6{
+            width:200px;
+            height:200px;
+            background-color: hotpink;
+            margin:auto;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-delay: 2s;
+           
+        }
+        .box6:hover{
+            background-color: aqua;
+            transform:scale(0.5);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <h1>what is transittion</h1>
+    <p>CSS transitions used to make the change happens slowly and smoothy.</p>
+    <p>transitions only works when somwthing will change. it will work</p>
+    <br>
+    <h1>there are five properties</h1>
+    <dl>
+        <dt>transition property</dt>
+        <dd>when you want change something</dd>
+        <dd>ex.colors,width,transform</dd>
+    </dl>
+    <br>
+    <dl>
+        <dt>transition duration</dt>
+        <dd>how long does it take</dd>
+        <dd>1s</dd>
+    </dl>
+    <br>
+    <dl>
+        <dl>transition-timing duration</dl>
+        <dd>how the speed feels</dd>
+        <dl>ease</dl>
+        <dt>starts slow,sppedup,ends slow(smooth)</dt>
+        <dl>easein</dl>
+        <dd>starts slow, then speed up</dd>
+        <dl> ease-out</dl>
+        <dd>starts fast, then slows down</dd>
+        <dl>linerar</dl>
+        <dt>same speed from start to end</dt>
+        <dl>ease-in-out</dl>
+        <dd>starts slow, fast in the middle, slow at tbe end.</dd>
+      </dl>
+      <br>
+     <br>
+     <br>
+     <br>
+     <hr>
+     <hr>
+     <div class="box1"></div>
+     <br>
+     <hr>
+      <div class="box2"></div>
+      <br>
+      <hr>
+       <div class="box3"></div>
+      <br>
+      <hr>
+       <div class="box4"></div>
+      <br>
+      <hr>
+       <div class="box5"></div>
+      <br>
+      <hr>
+      <div class="box6"></div>
+      <br>
+      <hr>
+
+
+
+       
+      
+    
+
+   
+</body>
+</html>
