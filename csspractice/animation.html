@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            background-color:orange;
+            animation: myanimation 1s linear infinite;
+
+        }
+        @keyframes myanimation{
+            0%{background-color: pink;}
+            25%{background-color: aqua;}
+            100%{background-color: black;}
+        }
+          .box2{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            background-color:orange;
+            animation: atanimation 1s linear infinite;
+
+        }
+        @keyframes atanimation{
+            0%{background-color: pink; transform: translatex(100px);}
+            25%{background-color: aqua; transform: translatey(200px)}
+            100%{background-color: black; transform: translate(90px);}
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <br>
+    <div class="box2"></div>
+    <br>
+    
+</body>
+</html>
