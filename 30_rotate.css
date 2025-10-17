@@ -1,0 +1,38 @@
+ .box1{
+        width: 200px;
+        height:200px;
+        background-color: bisque;
+        margin:auto;
+       
+       
+
+      }
+     .box1:hover{
+         transition-duration: 1s;
+         transform: rotatex(100deg);
+     }
+
+        
+         .box2{
+            width:200px;
+            height:200px;
+            background-color: bisque;
+            margin:auto;
+         
+          
+        }
+        .box2:hover{
+              transition-duration: 1s;
+              transform: rotatey(100deg);
+        }
+         .box3{
+            width:200px;
+            height:200px;
+            background-color: bisque;
+            margin:auto;
+           
+        }
+        .box3:hover{
+            transform: rotatez(360deg);
+             transition-duration: 1s;
+        }

@@ -1,0 +1,26 @@
+ nav{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+     }
+     nav ol{
+        list-style-type: none;
+     }
+     nav ol li{
+        display: inline-block;
+        padding: 20px;
+        margin: 20px;
+       
+       
+     }
+      ol li a{
+        text-decoration: none;
+        padding: 20px;
+        color:black;
+        font-weight: bold;
+      }
+      ol li a:hover{
+        background-color:gray;
+      }
+    

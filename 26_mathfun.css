@@ -1,0 +1,33 @@
+  /* .container{ 
+            width:calc(100%-200px);
+            margin: 30px;
+            /* /* background-color: lightslategrey; 
+        /* } */
+        /* .circle{ 
+            width:200px;
+            height:200px;
+            background-color: indianred;
+            border-radius: 50%;
+            align-items: center;
+            display: flex;
+            /* justify-content: center; 
+        /* } */
+        .contain{
+            width: calc(100%-40px);
+            margin:20px;
+           display: flex;
+           justify-content: space-between;
+            background-color: lightsalmon;
+        }
+        .box{
+            width: calc(100% /3 -20px);
+            height:200px;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+            font-size: 20px;
+            font-weight:bold;
+
+        }

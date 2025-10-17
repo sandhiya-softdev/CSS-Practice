@@ -1,0 +1,31 @@
+ .radial-example1{
+            width: 400px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: radial-gradient(red,green);
+        }
+         .radial-example2{
+            width: 400px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: radial-gradient(circle,red,green,blue);
+        }
+         .radial-example3{
+            width: 400px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: radial-gradient(circle,red,green 5%,blue 10%,grey 20%);
+        }
+         .radial-example4{
+            width: 400px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: radial-gradient(circle,red,green,blue,grey,orange,purple, white,yellow);
+        }
+         .radial-example5{
+            width: 400px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: radial-gradient(circle at right,red,green,blue);
+         }
+

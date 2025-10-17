@@ -1,0 +1,30 @@
+.icon-clock:before {
+        content: "\1F567";
+        font-size: 48px;
+      }
+      
+      .icon-heart:before {
+        content: "\1F49C";
+        font-size: 48px;
+      }
+      
+      .icon-sad:before {
+        content: "\1F601";
+        font-size: 48px;
+      }
+
+      .icon-hand:before {
+        content:"\1F91A";
+        font-size: 120px;
+      }
+      .icon-cloudy:before {
+        content: "\1F4AD";
+        font-size: 50px;
+        font-family:"FontAwesome";
+      }
+
+       .icon-cooker:before {
+        content: "\1F373";
+        font-family: "Segoe UI Emoji";
+        font-size: 50px;
+       }

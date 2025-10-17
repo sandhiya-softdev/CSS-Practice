@@ -1,0 +1,21 @@
+ .place{
+            background-color: blueviolet;
+        }
+        /* inline comment*/
+        #rush{
+            background-color: blanchedalmond;
+            /*font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 300px;*/
+        }
+
+        /* this is multiple line comment*/
+
+        h1{
+            background-color: aquamarine;
+           /* color: bisque;*/
+        }
+        p{
+            background-color: blueviolet;
+            /*color: brown;*/
+        }

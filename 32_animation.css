@@ -1,0 +1,39 @@
+ .box1{
+            width: 200px;
+            height: 200px;
+            background-color: orangered;
+            margin: auto;
+            animation: myanimation 2s linear infinite;
+        }
+       @keyframes myanimation{
+        0%{background-color: ghostwhite;}
+        50%{background-color: black;}
+        100%{background-color: beige;}
+       }
+       .box2{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin: auto;
+        animation:animation 2s ease-in infinite;
+       }
+       @keyframes animation{
+        0%{background-color: aquamarine; transform: rotate(450deg);}
+        50%{background-color: purple; transform: scale(0.5);}
+        100%{background-color: goldenrod; transform: translate(200px);}
+       }
+       .box3{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin: auto;
+        animation:atanimation 1s ease-in-out infinite;
+
+       }
+       @keyframes atanimation{
+        0%{background-color: blueviolet; transform: translate(0);}
+         50%{background-color: black; transform: translatey(200px);}
+          100%{background-color: green; transform: translatex(50px);}
+
+       }
+       

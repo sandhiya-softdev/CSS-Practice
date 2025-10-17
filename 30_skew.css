@@ -1,0 +1,28 @@
+ .box1{
+            width: 200px;
+            height: 200px;
+            background-color: firebrick;
+            transform: skewX(10deg);
+           
+            margin: auto;
+        }
+         .box2{
+            width: 200px;
+            height: 200px;
+            background-color: firebrick;
+            transform: skewy(20deg);
+            margin: auto;
+           
+        }
+         .box3{
+            width: 200px;
+            height: 200px;
+            background-color: firebrick;
+           
+          margin:auto;
+        }
+        .box3:hover{
+            transition: 2s;
+             transform: skew(20deg,20deg);
+
+        }

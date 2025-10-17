@@ -1,0 +1,36 @@
+ .box1{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            
+        }
+        .box1:hover{
+          transition:1s;
+           transform: scale(0.1);
+        }
+          
+         .box2{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+           
+        }
+        .box2.hover{
+          transition: 1s;
+           transform: scale(1);
+
+
+        }
+          .box3{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            transform: scale(1);
+        }
+          .box4{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            transform: scale(0.3);
+        }
+
