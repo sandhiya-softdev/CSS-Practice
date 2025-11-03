@@ -4,7 +4,7 @@
     margin: 50px;
 }
 .tooltip .tooltiptext{
-    /* visibility: hidden; */
+    visibility: hidden;
     width: 120px;
     background-color: black;
     color:#fff;
@@ -15,5 +15,12 @@
     bottom:125%;
     left:50%;
     z-index: 1;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: opacity 0.1s;
 
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
 }
