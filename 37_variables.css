@@ -1,0 +1,9 @@
+:root{
+    --primary-color: #ff0000;
+    --secondary-color: #00ff00;
+    --text-color: var(var(--primary-color));
+}
+.container{
+    color: var(var(--primary-color));;
+    background-color: var(--secondary-color);
+}
